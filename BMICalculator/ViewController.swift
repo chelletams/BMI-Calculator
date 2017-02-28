@@ -11,6 +11,8 @@ import UIKit
 class BMICalculator {
     var height:Double
     var weight:Double
+    var bmi:Double = 0
+    var conversionFactor:Double = 703.0704
     
     init (height:Double, weight:Double) {
         self.height = height
@@ -22,7 +24,8 @@ class BMICalculator {
     }
     
     func bmiUS() -> Double {
-        return (height * height) / weight
+        bmi = (weight / (height * height)) * conversionFactor
+        return bmi
     }
 }
 
