@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA058BD71E6536C400A4F9BF /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BA058BD61E6536C400A4F9BF /* normal.png */; };
+		BA058BD91E653A7100A4F9BF /* severeThinness.png in Resources */ = {isa = PBXBuildFile; fileRef = BA058BD81E653A7100A4F9BF /* severeThinness.png */; };
+		BA058BDB1E653BA500A4F9BF /* moderateThinness.png in Resources */ = {isa = PBXBuildFile; fileRef = BA058BDA1E653BA500A4F9BF /* moderateThinness.png */; };
+		BA058BDD1E653C5500A4F9BF /* mildThinness.png in Resources */ = {isa = PBXBuildFile; fileRef = BA058BDC1E653C5500A4F9BF /* mildThinness.png */; };
+		BA058BDF1E653CE300A4F9BF /* overweight.png in Resources */ = {isa = PBXBuildFile; fileRef = BA058BDE1E653CE300A4F9BF /* overweight.png */; };
+		BA058BE11E653E7D00A4F9BF /* obeseI.png in Resources */ = {isa = PBXBuildFile; fileRef = BA058BE01E653E7D00A4F9BF /* obeseI.png */; };
 		BADC91C11E52B53F0047CC76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC91C01E52B53F0047CC76 /* AppDelegate.swift */; };
 		BADC91C31E52B53F0047CC76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC91C21E52B53F0047CC76 /* ViewController.swift */; };
 		BADC91C61E52B53F0047CC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC91C41E52B53F0047CC76 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA058BD61E6536C400A4F9BF /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal.png; path = ../../../Pictures/normal.png; sourceTree = "<group>"; };
+		BA058BD81E653A7100A4F9BF /* severeThinness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = severeThinness.png; path = ../../severeThinness.png; sourceTree = "<group>"; };
+		BA058BDA1E653BA500A4F9BF /* moderateThinness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moderateThinness.png; path = ../../moderateThinness.png; sourceTree = "<group>"; };
+		BA058BDC1E653C5500A4F9BF /* mildThinness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mildThinness.png; path = ../../mildThinness.png; sourceTree = "<group>"; };
+		BA058BDE1E653CE300A4F9BF /* overweight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overweight.png; path = ../../overweight.png; sourceTree = "<group>"; };
+		BA058BE01E653E7D00A4F9BF /* obeseI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obeseI.png; path = ../../obeseI.png; sourceTree = "<group>"; };
 		BADC91BD1E52B53F0047CC76 /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADC91C01E52B53F0047CC76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BADC91C21E52B53F0047CC76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +47,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA058BB01E64234A00A4F9BF /* img */ = {
+			isa = PBXGroup;
+			children = (
+				BA058BE01E653E7D00A4F9BF /* obeseI.png */,
+				BA058BDE1E653CE300A4F9BF /* overweight.png */,
+				BA058BDC1E653C5500A4F9BF /* mildThinness.png */,
+				BA058BDA1E653BA500A4F9BF /* moderateThinness.png */,
+				BA058BD81E653A7100A4F9BF /* severeThinness.png */,
+				BA058BD61E6536C400A4F9BF /* normal.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		BADC91B41E52B53F0047CC76 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +79,7 @@
 		BADC91BF1E52B53F0047CC76 /* BMICalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BA058BB01E64234A00A4F9BF /* img */,
 				BADC91C01E52B53F0047CC76 /* AppDelegate.swift */,
 				BADC91C21E52B53F0047CC76 /* ViewController.swift */,
 				BADC91C41E52B53F0047CC76 /* Main.storyboard */,
@@ -126,6 +152,12 @@
 				BADC91CB1E52B53F0047CC76 /* LaunchScreen.storyboard in Resources */,
 				BADC91C81E52B53F0047CC76 /* Assets.xcassets in Resources */,
 				BADC91C61E52B53F0047CC76 /* Main.storyboard in Resources */,
+				BA058BD71E6536C400A4F9BF /* normal.png in Resources */,
+				BA058BDD1E653C5500A4F9BF /* mildThinness.png in Resources */,
+				BA058BDF1E653CE300A4F9BF /* overweight.png in Resources */,
+				BA058BDB1E653BA500A4F9BF /* moderateThinness.png in Resources */,
+				BA058BE11E653E7D00A4F9BF /* obeseI.png in Resources */,
+				BA058BD91E653A7100A4F9BF /* severeThinness.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 				BADC91D11E52B53F0047CC76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
